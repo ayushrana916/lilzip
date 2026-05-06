@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# Gradle wrapper script for Linux/Mac
+#
+
+# Resolve script location
+PRG="$0"
+PRGDIR=$(dirname "$PRG")
+APP_HOME=$(cd "$PRGDIR" && pwd)
+
+CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
+
+# Determine Java command
+if [ -n "$JAVA_HOME" ]; then
+  JAVACMD="$JAVA_HOME/bin/java"
+else
+  JAVACMD="java"
+fi
+
+exec "$JAVACMD" \
+  -classpath "$CLASSPATH" \
+  org.gradle.wrapper.GradleWrapperMain \
+  "$@"

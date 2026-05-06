@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lily_blue">#185FA5</color>
+    <color name="lily_dark">#0A0A1A</color>
+    <color name="lily_accent">#378ADD</color>
+    <color name="lily_green">#1D9E75</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lily_text">#E0EEFF</color>
+</resources>

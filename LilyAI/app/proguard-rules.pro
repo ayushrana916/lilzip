@@ -1,0 +1,2 @@
+-keep class com.lily.ai.** { *; }
+-dontwarn kotlin.**
