@@ -80,7 +80,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="sk-ant-..."
-                android:hintTextColor="#445566"
+                
                 android:textColor="#E0EEFF"
                 android:textSize="13sp"
                 android:inputType="textPassword"
